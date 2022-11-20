@@ -258,15 +258,18 @@
         </div>
       </div>
       <form class="sign-up-form">
-        <label for="user-mail" class="sign-up-label">Підпишіться на розсилку</label>
+        <p class="sign-up-text">Підпишіться на розсилку</p>
+        <label for="user-mail" class="visually-hidden">Пошта</label>
         <div class="sign-up-wrapper">
-          <input type="email" name="user-mail" id="user-mail" placeholder="E-mail" class="sign-up-input">
+          <input type="email" name="user-mail" id="user-mail" placeholder="E-mail" class="sign-up-input" aria-label="email">
           <button type="submit" class="button sign-up-button">
-            <span class="sign-up-text">Підписатися</span>
+            Підписатися
             <svg class="send-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
           </button>
+        </div>
+      </form>
     </div>
   </footer>
 </body>

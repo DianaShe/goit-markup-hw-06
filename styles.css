@@ -431,6 +431,7 @@ h1, h2, h3, p, ul {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-box {
@@ -524,9 +525,9 @@ h1, h2, h3, p, ul {
   background-color: var(--accent-color);
 }
 
-.sign-up-label {
+.sign-up-text {
   display: block;
-  padding-top: 23px;
+  
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -563,19 +564,16 @@ h1, h2, h3, p, ul {
 
 .sign-up-button {
   position: relative;
+  text-align: start;
   width: 200px;
   padding-left: 28px;
   font-weight: 700;
   background-color: var(--accent-color);
   color: var(--white-color);
-  text-align: start; 
-}
-
-.sign-up-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-}
+}  
 
 .send-icon {
   position: absolute;
